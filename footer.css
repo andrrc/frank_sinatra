@@ -1,0 +1,30 @@
+footer{
+    background-color: white;
+    border-top: 2px solid black;
+    display: flex;
+    width: 100vw;
+    height: 15rem;
+}
+.first-side-footer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.second-side-footer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.title-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
