@@ -1,0 +1,84 @@
+footer{
+    background-color: white;
+    border-top: 2px solid black;
+    display: flex;
+    width: 100vw;
+    height: 10rem;
+}
+.first-side-footer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.second-side-footer{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.title-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-side-contact{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side-contact img{
+    width: auto;
+    height: 100%;
+}
+.right-side-contact{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+
+}
+.right-side-contact input{
+    width: 70%;
+    padding: 10px;
+    text-align: center;
+
+}
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+.container-contact{
+    width: 100vw;
+    height: calc(100% - 15rem);
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article-contact{
+    width: 80%;
+    height: 100%;
+    display: flex;
+
+}
+

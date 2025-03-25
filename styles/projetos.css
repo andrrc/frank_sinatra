@@ -1,0 +1,40 @@
+.container-album{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-block: 15px;
+    background-color: black;
+}
+.container-album h1{
+    color: white;
+}
+.main-albums{
+    padding-block: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    text-align: center;
+    width: 250px;
+}
+.album p{
+    text-align: center;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}

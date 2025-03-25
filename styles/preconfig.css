@@ -16,3 +16,6 @@ body{
     font-family: "Raleway-Medium";
     src: url(../fontes/Raleway-Medium.ttf);
 }
+a:hover{
+    opacity: 0.5;
+}
